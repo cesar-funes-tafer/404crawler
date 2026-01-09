@@ -1,11 +1,11 @@
 # Crawler hecho con código de vibras
-### 🚀 ¿Qué hace?
+### ¿Qué hace?
 - Escanea de forma recursiva partiendo de una URL.
 - Utiliza un **pool de páginas en paralelo** para ir a toda velocidad.
 - Detecta errores 404 reales y por heurística (texto en pantalla).
 - Exporta automáticamente los hallazgos a un `errores_404.csv`.
 
-### 🛠️ Instalación y Uso
+### Instalación y Uso
 
 1. **Clona y prepara:**
    ```bash
@@ -20,7 +20,7 @@
    node crawl404.js
    ```
 
-### 📦 Dependencias
+### Dependencias
 - `puppeteer` para la magia del navegador.
 - `axios` & `cheerio` (preparado para peticiones ligeras).
 
